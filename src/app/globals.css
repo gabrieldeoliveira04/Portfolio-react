@@ -1,12 +1,13 @@
-@import "tailwindcss/preflight";
+@tailwind base;
+@tailwind components;
 @tailwind utilities;
 
-/* Estilos globais personalizados opcionais */
 body {
   font-family: sans-serif;
 }
 
 @import "tw-animate-css";
+
 html,
 
 body {
@@ -36,11 +37,7 @@ a {
   }
 }
 
-/* Styles antigos */
-
-/* importando a fonte do google fontes */
 @import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
-@import "tw-animate-css";
 
 
 
@@ -750,14 +747,4 @@ footer{
   --sidebar-ring: oklch(0.556 0 0);
 }
 
-@layer base {
-  * {
-    @apply border-border outline-ring/50;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
-}
-@layer utilities {
-  
-}
+

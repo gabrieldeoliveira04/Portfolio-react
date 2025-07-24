@@ -15,19 +15,18 @@ export default function Portfolio() {
 
     <section className="portfolio" id="portfolio">
       <h2 className="text-4xl">Projetos</h2>
-      <h3 className="text-4xl font-bold text-green-500 underline">Tailwind está funcionando</h3>
 
       <Carousel       opts={{
         align: "start",
       }}
-      className="w-full max-w-sm">
+      className="mx-auto w-full max-w-2xl">
         <CarouselContent>
           <CarouselItem className="flex-none w-full snap-start">
             <Card>
-              <CardContent>
-                  <div className="portfolio-box">
-                    <img src="html,css,javascript.jpg" alt="portfolio 1" />
-                    <div className="portfolio-layer text-4xl text-white">
+              <CardContent className="p-0">
+                  <div className="portfolio-box w-full h-64 relative">
+                    <img src="htmlcssjavascript.jpg" className="w-full h-full object-cover rounded-lg shadow-lg" alt="portfolio 1" />
+                    <div className="portfolio-layer text-white">
                       <h4>Desenvolvimento Web</h4>
                       <p>HTML, CSS E Javascript.</p>
                       <a href="https://github.com/stars/gabrieldeoliveira04/lists/desenvolvimento-web">
@@ -42,10 +41,10 @@ export default function Portfolio() {
 
           <CarouselItem className="flex-none w-full snap-start">
             <Card>
-              <CardContent>
+              <CardContent className="p-0">
 
-                  <div className="portfolio-box">
-                    <img src="python image.jpg" alt="portfolio 2" />
+                  <div className="portfolio-box w-full h-64 relative">
+                    <img src="auto-python.jpg" className="w-full h-full object-cover rounded-lg shadow-lg" alt="portfolio 2" />
                     <div className="portfolio-layer">
                       <h4>Automação em Python</h4>
                       <p>Projetos de automação.</p>
@@ -61,9 +60,9 @@ export default function Portfolio() {
 
              <CarouselItem className="flex-none w-full snap-start">
             <Card>
-              <CardContent>
-                <div className="portfolio-box">
-                  <img src="NODE.PNG" alt="portfolio 4" />
+              <CardContent className="p-0">
+                <div className="portfolio-box w-full h-64 relative">
+                  <img src="NODE.png" className="w-full h-full object-cover rounded-lg shadow-lg" alt="portfolio 4" />
                   <div className="portfolio-layer">
                     <h4>Node</h4>
                     <p>Projetos utilizando Node.</p>
@@ -77,9 +76,9 @@ export default function Portfolio() {
           </CarouselItem>
           <CarouselItem className="flex-none w-full snap-start">
             <Card>
-              <CardContent>
-                <div className="portfolio-box">
-                  <img src="python-image2.jpg" alt="portfolio 3" />
+              <CardContent className="p-0">
+                <div className="portfolio-box w-full h-64 relative">
+                  <img src="python-image2.jpg" className="w-full h-full object-cover rounded-lg shadow-lg" alt="portfolio 3" />
                   <div className="portfolio-layer">
                     <h4>Interfaces em Python</h4>
                     <p>Projetos de interfaces.</p>
@@ -94,9 +93,9 @@ export default function Portfolio() {
 
           <CarouselItem className="flex-none w-full snap-start">
             <Card>
-              <CardContent>
-                <div className="portfolio-box">
-                  <img src="typescript.png" alt="portfolio 8" />
+              <CardContent className="p-0">
+                <div className="portfolio-box w-full h-64 relative">
+                  <img src="typescript.webp" className="w-full h-full object-cover rounded-lg shadow-lg" alt="portfolio 8" />
                   <div className="portfolio-layer">
                     <h4>Typescript</h4>
                     <p>Projetos utilizando Typescript.</p>
@@ -110,9 +109,9 @@ export default function Portfolio() {
           </CarouselItem>
           <CarouselItem className="flex-none w-full snap-start">
             <Card>
-              <CardContent>
-                <div className="portfolio-box">
-                  <img src="mongo.png" alt="portfolio 7" />
+              <CardContent className="p-0">
+                <div className="portfolio-box w-full h-64 relative">
+                  <img src="mongodb.png" className="w-full h-full object-cover rounded-lg shadow-lg" alt="portfolio 7" />
                   <div className="portfolio-layer">
                     <h4>MongoDB</h4>
                     <p>Projetos utilizando MongoDB.</p>
@@ -127,9 +126,9 @@ export default function Portfolio() {
 
           <CarouselItem className="flex-none w-full snap-start">
             <Card>
-              <CardContent>
-                <div className="portfolio-box">
-                  <img src="react.png" alt="portfolio 6" />
+              <CardContent className="p-0">
+                <div className="portfolio-box w-full h-64 relative">
+                  <img src="react.webp" className="w-full h-full object-cover rounded-lg shadow-lg" alt="portfolio 6" />
                   <div className="portfolio-layer">
                     <h4>React</h4>
                     <p>Projetos utilizando React.</p>
@@ -143,9 +142,9 @@ export default function Portfolio() {
           </CarouselItem>
           <CarouselItem className="flex-none w-full snap-start">
             <Card>
-              <CardContent>
-                <div className="portfolio-box">
-                  <img src="mysql.jpg" alt="portfolio 5" />
+              <CardContent className="p-0">
+                <div className="portfolio-box w-full h-64 relative">
+                  <img src="mysql.jpg" className="w-full h-full object-cover rounded-lg shadow-lg" alt="portfolio 5" />
                   <div className="portfolio-layer">
                     <h4>MySQL</h4>
                     <p>Projetos utilizando MySQL.</p>
@@ -158,9 +157,12 @@ export default function Portfolio() {
             </Card>
           </CarouselItem>
         </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
+                <CarouselPrevious className=" hidden md:flex absolute top-1/2 -translate-y-1/2 left-0 -translate-x-1/2 z-20 bg-white dark:bg-gray-800 shadow-lg rounded-full h-10 w-10" />
+                <CarouselNext className=" hidden md:flex absolute top-1/2 -translate-y-1/2 right-0 translate-x-1/2 z-20 bg-white dark:bg-gray-800 shadow-lg rounded-full h-10 w-10" />
       </Carousel>
+      <h2 className="text-center text-blue-500 md:hidden">
+        Arrasta pro lado ⮕
+      </h2>
     </section>
   );
 }
