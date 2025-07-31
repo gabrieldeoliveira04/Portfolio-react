@@ -173,12 +173,9 @@ export default function Portfolio() {
             </Card>
           </CarouselItem>
         </CarouselContent>
-        <CarouselPrevious className=" hidden md:flex absolute top-1/2 -translate-y-1/2 left-0 -translate-x-1/2 z-20 bg-white dark:bg-gray-800 shadow-lg rounded-full h-10 w-10" />
-        <CarouselNext className=" hidden md:flex absolute top-1/2 -translate-y-1/2 right-0 translate-x-1/2 z-20 bg-white dark:bg-gray-800 shadow-lg rounded-full h-10 w-10" />
+        <CarouselPrevious className=" md:flex absolute top-1/2 -translate-y-1/2 left-0 -translate-x-1/2 z-20 bg-white dark:bg-gray-800 shadow-lg rounded-full h-10 w-10" />
+        <CarouselNext className=" md:flex absolute top-1/2 -translate-y-1/2 right-0 translate-x-1/2 z-20 bg-white dark:bg-gray-800 shadow-lg rounded-full h-10 w-10" />
       </Carousel>
-      <h2 className="text-center text-blue-500 md:hidden">
-        Arrasta pro lado ⮕
-      </h2>
     </section>
   );
 }
