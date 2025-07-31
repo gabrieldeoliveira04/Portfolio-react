@@ -8,7 +8,7 @@ import {
 } from "@/components/ui/carousel"
 import { Card, CardContent } from "@/components/ui/card"
 import '../app/globals.css'
-import FingerSwipe from "./ui/FingerSwipe"
+
 
 export default function Services() {
   return (
