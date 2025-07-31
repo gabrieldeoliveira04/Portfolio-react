@@ -19,7 +19,7 @@ export default function Header() {
   };
 
   return (
-    <header className="mb-5 bg-blue-300">
+    <header className="mb-5">
       <a href="#" className="logo">Portfolio</a>
 
       <div className="nav">
