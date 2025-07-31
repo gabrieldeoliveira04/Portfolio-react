@@ -48,11 +48,11 @@ body {
 }
 
 :root {
-    --main-color: #0094d8;
-    --text-color: #ffff;
-    --bg-cxolor-01: #1f242d;
-    --bg-cxolor-02: #323946;
-    --color-00: #0000001a;
+    --main-color: #9c0000;
+    --text-color: #ffffff;
+    --bg-cxolor-01: #5c0e00;
+    --bg-cxolor-02: #701606;
+    --color-00: #1818181a;
 
     /* cores extras */
     --color-01: #999999;
