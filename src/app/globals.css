@@ -54,7 +54,7 @@ body {
 }
 
 :root {
-    --main-color: #9c0000;
+    --main-color: #ff0000;
     --text-color: #ffffff;
     --bg-cxolor-01: #5c0e00;
     --bg-cxolor-02: #701606;
@@ -131,7 +131,7 @@ header {
     left: 0;
     width: 100%;
     padding: 0.8rem;
-    background-color: var(--bg-cxolor-01);
+    background-color: var(--bg-cxolor-02);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -411,7 +411,7 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 1.2rem;
-    background-color: var(--main-color);
+    background-color: var(--bg-cxolor-02);
 }
 
 .social-media img {
