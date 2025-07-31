@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <section className="home" id="home">
+    <section className="home mt-5" id="home">
       <div className="home-content">
         <h3>Olá,</h3>
         <h1>Eu sou o Gabriel</h1>
@@ -10,10 +10,13 @@ export default function Home() {
         </h3>
 
         <p>
-          Como Desenvolvedor Full stack, busco me aprimorar na área e
-          ingressar em meu primeiro emprego como desenvolvedor, tenho um perfil
-          criativo, proativo e dedicado, além de ser apaixonado pela área de
-          tecnologia.
+Desenvolvedor Full Stack focado em transformar ideias em soluções digitais reais.<span>
+  <br></br>
+
+Combinando design funcional, código limpo e tecnologias modernas, ajudo empresas e empreendedores a criarem sistemas, sites e aplicações sob medida — com performance, escalabilidade e experiência do usuário em primeiro lugar.</span>
+<br></br>
+Se você precisa tirar um projeto do papel ou otimizar o que já existe, está no lugar certo.
+
         </p>
         <div className="social-media">
           <a href="https://www.linkedin.com/in/gabriel-de-oliveira-gomes-a122591b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">

@@ -5,7 +5,7 @@ export default function Contact() {
         Me <span>contate!</span>
       </h2>
 
-      <form
+      <form className=""
         action="https://formsubmit.co/gabrielgomes.04@hotmail.com"
         method="POST"
       >
