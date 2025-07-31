@@ -95,7 +95,6 @@ body {
 }
 
 * {
-    margin: 350;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
@@ -168,7 +167,7 @@ header {
 }
 
 section {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     padding: 6rem 6rem 2rem;
     /* border: solid 1px var(--color-02); teste */
 }

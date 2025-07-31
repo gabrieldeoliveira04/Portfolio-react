@@ -16,24 +16,24 @@ export default function Portfolio() {
     <section className="portfolio" id="portfolio">
       <h2 className="text-4xl">Projetos</h2>
 
-      <Carousel       opts={{
+      <Carousel opts={{
         align: "start",
       }}
-      className="mx-auto w-full max-w-2xl">
+        className="mx-auto w-full">
         <CarouselContent>
           <CarouselItem className="flex-none w-full snap-start">
             <Card>
               <CardContent className="p-0">
-                  <div className="portfolio-box w-full h-64 relative">
-                    <img src="htmlcssjavascript.jpg" className="w-full h-full object-cover rounded-lg shadow-lg" alt="portfolio 1" />
-                    <div className="portfolio-layer text-white">
-                      <h4>Desenvolvimento Web</h4>
-                      <p>HTML, CSS E Javascript.</p>
-                      <a href="https://github.com/stars/gabrieldeoliveira04/lists/desenvolvimento-web">
-                        <i className="bx bx-link-external"></i>
-                      </a>
-                    </div>
+                <div className="portfolio-box w-full h-64 relative">
+                  <img src="htmlcssjavascript.jpg" className="object-cover rounded-lg shadow-lg" alt="portfolio 1" />
+                  <div className="portfolio-layer text-white">
+                    <h4>Desenvolvimento Web</h4>
+                    <p>HTML, CSS E Javascript.</p>
+                    <a href="https://github.com/stars/gabrieldeoliveira04/lists/desenvolvimento-web">
+                      <i className="bx bx-link-external"></i>
+                    </a>
                   </div>
+                </div>
 
               </CardContent>
             </Card>
@@ -43,22 +43,22 @@ export default function Portfolio() {
             <Card>
               <CardContent className="p-0">
 
-                  <div className="portfolio-box w-full h-64 relative">
-                    <img src="auto-python.jpg" className="w-full h-full object-cover rounded-lg shadow-lg" alt="portfolio 2" />
-                    <div className="portfolio-layer">
-                      <h4>Automação em Python</h4>
-                      <p>Projetos de automação.</p>
-                      <a href="https://github.com/stars/gabrieldeoliveira04/lists/automações-python">
-                        <i className="bx bx-link-external"></i>
-                      </a>
-                    </div>
+                <div className="portfolio-box w-full h-64 relative">
+                  <img src="auto-python.jpg" className="w-full h-full object-cover rounded-lg shadow-lg" alt="portfolio 2" />
+                  <div className="portfolio-layer">
+                    <h4>Automação em Python</h4>
+                    <p>Projetos de automação.</p>
+                    <a href="https://github.com/stars/gabrieldeoliveira04/lists/automações-python">
+                      <i className="bx bx-link-external"></i>
+                    </a>
                   </div>
+                </div>
 
               </CardContent>
             </Card>
           </CarouselItem>
 
-             <CarouselItem className="flex-none w-full snap-start">
+          <CarouselItem className="flex-none w-full snap-start">
             <Card>
               <CardContent className="p-0">
                 <div className="portfolio-box w-full h-64 relative">
@@ -91,7 +91,23 @@ export default function Portfolio() {
             </Card>
           </CarouselItem>
 
-          <CarouselItem className="flex-none w-full snap-start">
+          <CarouselItem className="md:hidden flex-none w-full snap-start lg:hidden">
+            <Card>
+              <CardContent className="p-0">
+                <div className="portfolio-box w-full h-64 relative">
+                  <img src="typescript.webp" className="w-full h-full object-cover rounded-lg shadow-lg" alt="portfolio 8" />
+                  <div className="portfolio-layer">
+                    <h4>Typescript</h4>
+                    <p>Projetos utilizando Typescript.</p>
+                    <a href="https://github.com/stars/gabrieldeoliveira04/lists/typescript">
+                      <i className="bx bx-link-external"></i>
+                    </a>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </CarouselItem>
+          <CarouselItem className="hidden md:block flex-none w-full snap-start">
             <Card>
               <CardContent className="p-0">
                 <div className="portfolio-box w-full h-64 relative">
@@ -157,8 +173,8 @@ export default function Portfolio() {
             </Card>
           </CarouselItem>
         </CarouselContent>
-                <CarouselPrevious className=" hidden md:flex absolute top-1/2 -translate-y-1/2 left-0 -translate-x-1/2 z-20 bg-white dark:bg-gray-800 shadow-lg rounded-full h-10 w-10" />
-                <CarouselNext className=" hidden md:flex absolute top-1/2 -translate-y-1/2 right-0 translate-x-1/2 z-20 bg-white dark:bg-gray-800 shadow-lg rounded-full h-10 w-10" />
+        <CarouselPrevious className=" hidden md:flex absolute top-1/2 -translate-y-1/2 left-0 -translate-x-1/2 z-20 bg-white dark:bg-gray-800 shadow-lg rounded-full h-10 w-10" />
+        <CarouselNext className=" hidden md:flex absolute top-1/2 -translate-y-1/2 right-0 translate-x-1/2 z-20 bg-white dark:bg-gray-800 shadow-lg rounded-full h-10 w-10" />
       </Carousel>
       <h2 className="text-center text-blue-500 md:hidden">
         Arrasta pro lado ⮕
