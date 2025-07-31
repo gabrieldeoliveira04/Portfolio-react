@@ -19,7 +19,7 @@ export default function Services() {
       <Carousel opts={{
         align: "start",
       }}
-        className="w-full  bg-zinc-700 rounded-lg">
+        className="w-full pr-8 pl-8  bg-black rounded-lg">
           <CarouselContent className="">
             <CarouselItem className="flex-none w-full snap-start">
               <Card className="">
@@ -139,13 +139,9 @@ export default function Services() {
               </Card>
             </CarouselItem >
           </CarouselContent >
-                <CarouselPrevious className=" hidden md:flex absolute top-1/2 -translate-y-1/2 left-0 -translate-x-1/2 z-20 bg-white dark:bg-gray-800 shadow-lg rounded-full h-10 w-10 m-5" />
-                <CarouselNext className=" hidden md:flex absolute top-1/2 -translate-y-1/2 right-0 translate-x-1/2 z-20 bg-white dark:bg-gray-800 shadow-lg rounded-full h-10 w-10 m-5" />
+                <CarouselPrevious className=" md:flex absolute top-1/2 -translate-y-1/2 left-0 -translate-x-1/2 z-20 dark:bg-gray-800 shadow-lg rounded-full h-10 w-10 m-5" />
+                <CarouselNext className="md:flex absolute top-1/2 -translate-y-1/2 right-0 translate-x-1/2 z-20 dark:bg-gray-800 shadow-lg rounded-full h-10 w-10 m-5" />
       </Carousel>
-      <h2 className="text-center text-blue-500 md:hidden">
-        Arrasta pro lado
-              <FingerSwipe />
-      </h2>
     </section >
   );
 }
