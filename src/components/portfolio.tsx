@@ -13,7 +13,7 @@ import '../app/globals.css'
 export default function Portfolio() {
   return (
 
-    <section className="portfolio" id="portfolio">
+    <section className="portfolio w-full overflow-x-hidden px-4 " id="portfolio">
       <h2 className="text-4xl">Projetos</h2>
 
       <Carousel opts={{
@@ -173,8 +173,8 @@ export default function Portfolio() {
             </Card>
           </CarouselItem>
         </CarouselContent>
-        <CarouselPrevious className=" md:flex absolute top-1/2 -translate-y-1/2 left-0 -translate-x-1/2 z-20 bg-white dark:bg-gray-800 shadow-lg rounded-full h-10 w-10" />
-        <CarouselNext className=" md:flex absolute top-1/2 -translate-y-1/2 right-0 translate-x-1/2 z-20 bg-white dark:bg-gray-800 shadow-lg rounded-full h-10 w-10" />
+                <CarouselPrevious className=" md:flex absolute top-1/2 -translate-y-1/2 left-0 -translate-x-1/2 z-20 dark:bg-gray-800 shadow-lg rounded-full h-10 w-10 m-5" />
+                <CarouselNext className="md:flex absolute top-1/2 -translate-y-1/2 right-0 translate-x-1/2 z-20 dark:bg-gray-800 shadow-lg rounded-full h-10 w-10 m-5" />
       </Carousel>
     </section>
   );
