@@ -14,13 +14,8 @@ export default function About() {
 
         <p>
           Com um perfil focado, dedicado, proativo e colaborativo, possuo conhecimento
-          em diversas áreas da tecnologia como a robótica, desenvolvimento web e de games,
-          além da automação com Python.
-        </p>
-
-        <p>
-          Busco meu primeiro emprego na área de TI para me desenvolver ainda mais
-          e construir minha carreira.
+          em diversas áreas da tecnologia como a robótica, desenvolvimento web front-end e back-end, conhecimento em banco de dados, desenvolvimento de games,
+          além de automação com Python.
         </p>
       </div>
     </section>
