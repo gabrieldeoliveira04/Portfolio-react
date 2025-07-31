@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <section className="home" id="home">
+    <section className="home mt-5" id="home">
       <div className="home-content">
         <h3>Olá,</h3>
         <h1>Eu sou o Gabriel</h1>

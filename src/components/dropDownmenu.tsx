@@ -16,7 +16,7 @@ export default function DropdownMenuCheckboxes() {
   return (
     <div className="">
     <DropdownMenu>
-      <DropdownMenuTrigger asChild>
+      <DropdownMenuTrigger asChild className=" bg-white">
         <Button variant="outline" size="icon">
           <Settings className="h-4 w-4" />
         </Button>

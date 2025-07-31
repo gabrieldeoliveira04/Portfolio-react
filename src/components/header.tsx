@@ -19,25 +19,25 @@ export default function Header() {
   };
 
   return (
-    <header>
+    <header className="mb-5 bg-blue-300">
       <a href="#" className="logo">Portfolio</a>
 
       <div className="nav">
         <a href="#home">Home</a>
-        <a href="#service">Services</a>
+        <a href="#service">Serviços</a>
         <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
+        <a href="#contact">Contato</a>
+        <a href="#about">Sobre</a>
         {/* <DropdownMenuCheckboxes /> */}
       </div>
    <div className="">
-<DropdownMenuCheckboxes />
+{/* <DropdownMenuCheckboxes /> */}
       <div className="nav-responsive" ref={navRef}>
         <a href="#home">Home</a>
-        <a href="#service">Services</a>
+        <a href="#service">Serviços</a>
         <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
+        <a href="#contact">Contato</a>
+        <a href="#about">Sobre</a>
       </div>
 </div> 
 
