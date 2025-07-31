@@ -633,7 +633,7 @@ footer {
     }
 
     form .input-box {
-        width: 49%;
+        width: 100%;
     }
 
     /* header {
@@ -786,11 +786,22 @@ footer {
 }
 
 @keyframes swipe {
-  0% { transform: translateX(0); opacity: 1; }
-  50% { transform: translateX(12px); opacity: 0.7; }
-  100% { transform: translateX(0); opacity: 1; }
+    0% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    50% {
+        transform: translateX(12px);
+        opacity: 0.7;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 
 .animate-swipe {
-  animation: swipe 1.4s infinite ease-in-out;
+    animation: swipe 1.4s infinite ease-in-out;
 }
