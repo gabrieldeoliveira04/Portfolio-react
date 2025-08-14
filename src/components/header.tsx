@@ -1,6 +1,6 @@
 'use client';
 import { useRef } from "react";
-import DropdownMenuCheckboxes from "./dropDownmenu";
+
 
 export default function Header() {
   const navRef = useRef<HTMLDivElement>(null);
@@ -28,10 +28,10 @@ export default function Header() {
         <a href="#portfolio">Portfolio</a>
         <a href="#contact">Contato</a>
         <a href="#about">Sobre</a>
-        {/* <DropdownMenuCheckboxes /> */}
+
       </div>
    <div className="">
-{/* <DropdownMenuCheckboxes /> */}
+
       <div className="nav-responsive" ref={navRef}>
         <a href="#home">Home</a>
         <a href="#service">Serviços</a>
