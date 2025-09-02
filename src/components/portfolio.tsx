@@ -39,6 +39,24 @@ export default function Portfolio() {
             </Card>
           </CarouselItem>
 
+                    <CarouselItem className="flex-none w-full snap-start">
+            <Card>
+              <CardContent className="p-0">
+                <div className="portfolio-box w-full h-64 relative">
+                  <img src="C.png" className="object-cover rounded-lg shadow-lg" alt="portfolio 1" />
+                  <div className="portfolio-layer text-white">
+                    <h4>C#</h4>
+                    <p>Projetos em C#</p>
+                    <a href="https://github.com/stars/gabrieldeoliveira04/lists/c">
+                      <i className="bx bx-link-external"></i>
+                    </a>
+                  </div>
+                </div>
+
+              </CardContent>
+            </Card>
+          </CarouselItem>
+
           <CarouselItem className="flex-none w-full snap-start">
             <Card>
               <CardContent className="p-0">
