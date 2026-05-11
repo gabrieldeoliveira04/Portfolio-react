@@ -6,44 +6,87 @@ Link de acesso: https://portfolio-gabriel-oliveira.netlify.app/
 ![image](https://github.com/user-attachments/assets/42ac0205-5498-4269-b43b-bf0a48360079)
 
 
-Código responsável pela criação do meu portfólio pessoal.
+# Personal Portfolio Website
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Portfólio pessoal desenvolvido para apresentação de projetos, habilidades técnicas e informações profissionais.
 
-## Getting Started
+O projeto foi inicialmente desenvolvido utilizando HTML, CSS e JavaScript puro, sendo posteriormente migrado para React com o objetivo de modernizar a aplicação, melhorar a componentização e evoluir a estrutura do frontend.
 
-First, run the development server:
+A aplicação foi criada com foco em responsividade, organização visual e apresentação profissional das experiências e projetos desenvolvidos.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Objetivo do Projeto
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+O principal objetivo do projeto foi criar uma plataforma pessoal para centralizar informações profissionais, projetos desenvolvidos e formas de contato.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Além disso, o projeto também foi utilizado como prática de evolução técnica, realizando a migração de uma aplicação estática para uma arquitetura baseada em React.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Tecnologias Utilizadas
 
-## Learn More
+### Primeira Versão
 
-To learn more about Next.js, take a look at the following resources:
+* HTML
+* CSS
+* JavaScript
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Versão Atual
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* React
+* Next.js
+* JavaScript
+* CSS
+* Git/GitHub
+* Netlify
 
-## Deploy on Vercel
+## Funcionalidades
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Portfólio Profissional
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# Portfolio-react
->>>>>>> eaf75b748e8220db3296a10383214228a150fe85
+* Apresentação de projetos
+* Exibição de habilidades técnicas
+* Informações profissionais e acadêmicas
+* Links para GitHub e redes profissionais
+
+### Interface da Aplicação
+
+* Interface responsiva
+* Navegação simples e intuitiva
+* Estruturação visual moderna
+* Organização de seções do portfólio
+
+### Evolução da Aplicação
+
+* Migração de HTML/CSS/JavaScript para React
+* Componentização da interface
+* Reestruturação do frontend
+* Melhoria na organização e manutenção do código
+
+## Deploy
+
+* Deploy realizado utilizando Netlify
+* Aplicação disponível publicamente via navegador
+
+## Estrutura da Aplicação
+
+O projeto foi reorganizado utilizando arquitetura baseada em componentes, permitindo maior reutilização de código e melhor escalabilidade da aplicação.
+
+## Conceitos Aplicados
+
+* Desenvolvimento Frontend
+* Componentização com React
+* Estruturação de aplicações Next.js
+* Responsividade
+* Organização de layouts
+* Deploy de aplicações web
+* Refatoração de aplicações frontend
+* Versionamento com Git/GitHub
+
+## Aprendizados
+
+Durante o desenvolvimento do projeto foram aplicados conceitos relacionados a:
+
+* Migração de aplicações estáticas para React
+* Organização de componentes reutilizáveis
+* Estruturação de projetos frontend modernos
+* Desenvolvimento responsivo
+* Publicação de aplicações utilizando Netlify
+* Evolução de arquitetura frontend
